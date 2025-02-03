@@ -1,0 +1,17 @@
+# YAML file for YOLO dataset configuration
+
+path: /home/fabiotdt/Documents/rs_lab/fruit_detection # dataset root dir
+
+train: 
+  - images/train 
+val:
+  - images/valid
+test:
+  - images/test
+  
+# Classes
+names:
+  0: apple
+  1: banana
+  2: orange
+
